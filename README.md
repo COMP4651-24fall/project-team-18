@@ -20,7 +20,7 @@ Modified From https://github.com/aws-solutions-library-samples/guidance-for-digi
 ## Suggested Running Order
 
 1. Run `load-marketdata.ipynb` to load the data and upload to the s3 bucket (need to change to your bucket name in the file)
-2. Run `data-processing.ipynb` to preprocess the data
+2. Run `data-processing.ipynb` to preprocess the data for each year (2018 to 2024)
 3. Run `linear-regression.ipynb` and `random-forest.ipynb` to analyze the dataset and test the capacity of Spark
 4. Run `back-test.ipynb` to verify the effectiveness of the model and gain more insight
 
